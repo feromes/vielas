@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import geopandas\")",
+      "Bash(python3 -c \"import pdal\")",
+      "Bash(ls -la /Users/fernandogomes/dev/ogdc 2>&1 | head -50)",
+      "Bash(ogrinfo -al -so /Users/fernandogomes/MacLab/vielas/download/habita2geosampa_habi_favela2geosampa.gpkg)",
+      "Bash(mkdir -p art_2017 art_2020)",
+      "Bash(unzip -o -q /Users/fernandogomes/dev/ogdc/articulacao_2017.zip -d art_2017)",
+      "Bash(unzip -o -q /Users/fernandogomes/dev/ogdc/articulacao_2020.zip -d art_2020)",
+      "Bash(ogrinfo -al -so /private/tmp/claude-501/-Users-fernandogomes-MacLab-vielas/a41ee359-c03b-4261-9167-bc3627524520/scratchpad/art_2017/quadricula_folha_mdt.shp)",
+      "Bash(ogrinfo -al -so /Users/fernandogomes/dev/ogdc/articulacao_2024.gpkg)",
+      "Bash(ogrinfo -al /Users/fernandogomes/dev/ogdc/articulacao_2024.gpkg)",
+      "Bash(python3 -c ' *)",
+      "Bash(pdal --version)"
+    ]
+  }
+}
